@@ -9,10 +9,26 @@
 </head>
 <body>
 
+<!-- ===== SPLASH INTRO SCREEN ===== -->
+<div id="splash">
+  <div class="splash-particles">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <div class="splash-ring">
+    <div class="splash-badge"><span>VC</span></div>
+  </div>
+  <p class="splash-label">Hyderabad's Finest</p>
+  <h1 class="splash-name">Vish<br><em>Collections</em></h1>
+  <p class="splash-tagline">Where Trend Meets Tradition</p>
+  <div class="splash-line"></div>
+  <div class="splash-dots"><span></span><span></span><span></span></div>
+</div>
+
 <!-- FIXED NAV -->
 <nav class="nav">
   <a href="#" class="nav-logo">Vish Collections</a>
-  <a href="https://wa.me/913982702840" class="nav-wa">Order Now</a>
+  <a href="https://wa.me/8096880360" class="nav-wa">Order Now</a>
 </nav>
 <div class="nav-spacer"></div>
 
@@ -23,7 +39,7 @@
   <p class="tagline-top">Hyderabad's Finest</p>
   <h1 class="hero-title">Where Trend Meets<br><em>Tradition</em></h1>
   <p class="hero-subtitle">Premium Sarees &amp; Kurtha Sets · DM to Order</p>
-  <a href="https://wa.me/913982702840" class="hero-cta">Shop Now</a>
+  <a href="https://wa.me/8096880360" class="hero-cta">Shop Now</a>
   <div class="scroll-hint">
     <div class="scroll-dot"></div>
     <span>Scroll</span>
@@ -67,7 +83,7 @@
         <p class="product-name">Banarasi Silk Saree</p>
         <p class="product-desc">PREMIUM COLLECTION</p>
         <p class="product-price">₹2,499 <span class="original">₹3,500</span></p>
-        <a href="https://wa.me/913982702840?text=Hi!%20I%27m%20interested%20in%20the%20Banarasi%20Silk%20Saree" class="buy-btn">Buy Now</a>
+        <a href="https://wa.me/8096880360?text=Hi!%20I%27m%20interested%20in%20the%20Banarasi%20Silk%20Saree" class="buy-btn">Buy Now</a>
       </div>
     </div>
 
@@ -81,7 +97,7 @@
         <p class="product-name">Chiffon Party Saree</p>
         <p class="product-desc">PARTY WEAR</p>
         <p class="product-price">₹1,899 <span class="original">₹2,800</span></p>
-        <a href="https://wa.me/913982702840?text=Hi!%20I%27m%20interested%20in%20the%20Chiffon%20Party%20Saree" class="buy-btn">Buy Now</a>
+        <a href="https://wa.me/8096880360?text=Hi!%20I%27m%20interested%20in%20the%20Chiffon%20Party%20Saree" class="buy-btn">Buy Now</a>
       </div>
     </div>
 
@@ -95,7 +111,7 @@
         <p class="product-name">3 Piece Kurta Set</p>
         <p class="product-desc">TRENDING NOW</p>
         <p class="product-price">₹1,599 <span class="original">₹2,200</span></p>
-        <a href="https://wa.me/913982702840?text=Hi!%20I%27m%20interested%20in%20the%203%20Piece%20Kurta%20Set" class="buy-btn">Buy Now</a>
+        <a href="https://wa.me/8096880360?text=Hi!%20I%27m%20interested%20in%20the%203%20Piece%20Kurta%20Set" class="buy-btn">Buy Now</a>
       </div>
     </div>
 
@@ -108,7 +124,7 @@
         <p class="product-name">Georgette Saree</p>
         <p class="product-desc">REGULAR WEAR</p>
         <p class="product-price">₹1,299 <span class="original">₹1,800</span></p>
-        <a href="https://wa.me/913982702840?text=Hi!%20I%27m%20interested%20in%20the%20Georgette%20Saree" class="buy-btn">Buy Now</a>
+        <a href="https://wa.me/8096880360?text=Hi!%20I%27m%20interested%20in%20the%20Georgette%20Saree" class="buy-btn">Buy Now</a>
       </div>
     </div>
   </div>
@@ -214,7 +230,7 @@
 <section class="order-section">
   <h2 class="order-title">Ready to Order?<br>We're Just a DM Away</h2>
   <p class="order-sub">WhatsApp us to place your order, ask questions, or get styling advice</p>
-  <a href="https://wa.me/913982702840" class="whatsapp-btn">
+  <a href="https://wa.me/8096880360" class="whatsapp-btn">
     <span class="wa-icon">💬</span>
     Chat on WhatsApp
   </a>
@@ -232,7 +248,7 @@
     </div>
     <div class="contact-item">
       <span>📱</span>
-      <span>+91 39827 02840</span>
+      <span>809-688-0360</span>
     </div>
     <div class="contact-item">
       <span>📩</span>
@@ -246,14 +262,24 @@
 
   <div class="social-row">
     <a href="https://instagram.com/vishcollections.in" class="social-btn">📷</a>
-    <a href="https://wa.me/913982702840" class="social-btn">💬</a>
+    <a href="https://wa.me/8096880360" class="social-btn">💬</a>
   </div>
 
   <p class="footer-copy">© 2026 VISH COLLECTIONS · ALL RIGHTS RESERVED</p>
 </footer>
 
 <!-- FLOATING WHATSAPP -->
-<a href="https://wa.me/913982702840" class="float-wa">💬</a>
+<a href="https://wa.me/8096880360" class="float-wa">💬</a>
+
+<script>
+  // Hide splash after 3 seconds
+  window.addEventListener('load', function () {
+    var splash = document.getElementById('splash');
+    setTimeout(function () {
+      splash.classList.add('hide');
+    }, 3000);
+  });
+</script>
 
 </body>
 </html>
